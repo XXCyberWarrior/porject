@@ -1,4 +1,8 @@
 /* nav releted styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -17,7 +21,7 @@ nav li {
   margin-right: 50px;
 }
 .pc {
-  color: #fd6e0a;
+  color: #00d2ff;
 }
 .nav-title {
   color: #181818;
@@ -26,7 +30,7 @@ nav li {
 }
 .btn-primary {
   border-radius: 5px;
-  background: #fd6e0a;
+  background: 	#00d2ff;
   color: white;
   border: 0px;
   font-size: 20px;
@@ -35,16 +39,13 @@ nav li {
 }
 /* header releted style */
 .header {
-    background-color: #FFF8F3;
+    background-color: #b1f2ff;
 }
 .banner {
-    padding: 30px 30px 30px ;
+    padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
 }
 hardy {
     width: 500px;
-}
-.banner-content {
-
 }
